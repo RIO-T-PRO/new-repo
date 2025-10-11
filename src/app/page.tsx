@@ -13,6 +13,7 @@ const Home = () => {
   return (
     <div className="font-sans bg-gray-50 text-gray-800">
       {/* Hero Section */}
+
       <header className="relative min-h-[80vh] flex flex-col justify-center items-center text-white text-center px-6 overflow-hidden">
         <video
           autoPlay

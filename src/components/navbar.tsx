@@ -43,6 +43,9 @@ const Navbar = () => {
             <Link href="/collections">Collections</Link>
           </li>
           <li>
+            <Link href="/products">Products</Link>
+          </li>
+          <li>
             <Link href="/about">About</Link>
           </li>
           <li>
@@ -82,6 +85,11 @@ const Navbar = () => {
               <li>
                 <Link href="/collections" onClick={() => setIsOpen(false)}>
                   Collections
+                </Link>
+              </li>
+              <li>
+                <Link href="/collections" onClick={() => setIsOpen(false)}>
+                  Products
                 </Link>
               </li>
               <li>
