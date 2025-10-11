@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-gradient-main {
+    background: linear-gradient(135deg, #f59e0b, #ef4444);
+  }
+
+  .bg-gradient-hover {
+    background: linear-gradient(135deg, #ef4444, #f59e0b);
+  }
+
+  .text-gradient-main {
+    background: linear-gradient(135deg, #f59e0b, #ef4444);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
