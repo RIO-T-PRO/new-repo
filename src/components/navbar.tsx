@@ -25,7 +25,7 @@ const Navbar = () => {
     isActive ? activeClass : normalClass;
 
   return (
-    <nav className="fixed w-full top-0 z-50 ">
+    <nav className="fixed w-full top-0 z-50 text-zinc-300 bg-white/10 backdrop-blur-2xl">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center relative">
         <Link
           href="/"
@@ -50,6 +50,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link href="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link href="/faqs">FAQS</Link>
           </li>
         </ul>
 
@@ -76,7 +79,7 @@ const Navbar = () => {
           </button>
 
           {isOpen && (
-            <ul className="absolute left-0 top-full w-full bg-white shadow-lg flex flex-col items-center space-y-20 py-6 h-[100vh]">
+            <ul className="absolute left-0 top-full w-full bg-white shadow-lg flex flex-col items-center space-y-15 py-6 h-[100vh]">
               <li>
                 <Link href="/" onClick={() => setIsOpen(false)}>
                   Home
@@ -100,6 +103,11 @@ const Navbar = () => {
               <li>
                 <Link href="/contact" onClick={() => setIsOpen(false)}>
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link href="/faqs" onClick={() => setIsOpen(false)}>
+                  FAQS
                 </Link>
               </li>
             </ul>
