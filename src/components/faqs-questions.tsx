@@ -19,7 +19,7 @@ const FaqsQuestions = () => {
           Questions? Look Here
         </h1>
         <p className="text-gray-500 max-w-xl mx-auto">
-          Can't find an answer? Call us at{" "}
+          Can&apos;t find an answer? Call us at{" "}
           <span className="font-semibold text-gray-700">(243) 99085058</span> or
           email{" "}
           <a

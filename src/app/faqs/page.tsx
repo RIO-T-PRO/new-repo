@@ -9,7 +9,7 @@ const Page = () => {
           Frequently Asked Questions
         </h1>
         <p className="mt-4 text-lg md:text-xl opacity-90 max-w-2xl">
-          Can't find an answer? Explore our{" "}
+          Can&apos;t find an answer? Explore our{" "}
           <span className="font-semibold">FAQs</span> or reach out to our
           support team for help.
         </p>

@@ -46,7 +46,7 @@ const ContactPage = () => {
           Contact Us
         </h1>
         <p className="mt-4 text-lg md:text-xl max-w-2xl opacity-90">
-          We'd love to hear from you! Reach out for inquiries, feedback, or
+          We&apos;d love to hear from you! Reach out for inquiries, feedback, or
           collaborations.
         </p>
       </header>

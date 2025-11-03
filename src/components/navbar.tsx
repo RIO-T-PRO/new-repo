@@ -21,9 +21,6 @@ const Navbar = () => {
   const activeClass = "text-red-500 font-semibold";
   const normalClass = "text-gray-800 hover:text-red-500 transition";
 
-  const linkClasses = ({ isActive }: { isActive: boolean }) =>
-    isActive ? activeClass : normalClass;
-
   return (
     <nav className="fixed w-full top-0 z-50 text-zinc-300 bg-white/10 backdrop-blur-2xl">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center relative">

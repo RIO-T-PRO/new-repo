@@ -21,7 +21,7 @@ export const faqData: FAQItem[] = [
     id: 3,
     question: "Can I return an item if it doesn't fit or I change my mind?",
     answer:
-      "Of course! You can return or exchange your item within 14 days of delivery as long as it’s unworn and in original condition.",
+      "Of course! You can return or exchange your item within 14 days of delivery as long as it's unworn and in original condition.",
   },
   {
     id: 4,

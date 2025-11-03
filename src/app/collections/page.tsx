@@ -9,7 +9,6 @@ const CollectionsPage = () => {
   const [search, setSearch] = useState<string>("");
   const [filtered, setFiltered] = useState<Collection[]>(collections);
 
-  const options = ["All", ...new Set(collections.map((item) => item.name))];
   const handleSearch = (e: ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setSearch(value);
